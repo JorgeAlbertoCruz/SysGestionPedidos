@@ -1,0 +1,15 @@
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\bin\Debug\net7.0\SysGestionPedidos.DAL.deps.json
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\bin\Debug\net7.0\SysGestionPedidos.DAL.dll
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\bin\Debug\net7.0\SysGestionPedidos.DAL.pdb
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\bin\Debug\net7.0\SysGestionPedidos.EN.dll
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\bin\Debug\net7.0\SysGestionPedidos.EN.pdb
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\SysGestionPedidos.DAL.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\SysGestionPedidos.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\SysGestionPedidos.DAL.AssemblyInfoInputs.cache
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\SysGestionPedidos.DAL.AssemblyInfo.cs
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\SysGestionPedidos.DAL.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\SysGestionPedidos.DAL.csproj.CopyComplete
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\SysGestionPedidos.DAL.dll
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\refint\SysGestionPedidos.DAL.dll
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\SysGestionPedidos.DAL.pdb
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\ref\SysGestionPedidos.DAL.dll
