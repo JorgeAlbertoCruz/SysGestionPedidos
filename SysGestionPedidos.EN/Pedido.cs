@@ -11,10 +11,10 @@ public partial class Pedido
     [Key]
     public int Id { get; set; }
 
+    [ForeignKey("IdUsuario")]
     public int? IdUsuario { get; set; }
 
     [StringLength(50)]
-    [Unicode(false)]
     public string? Estado { get; set; }
 
     [Column(TypeName = "datetime")]
@@ -24,9 +24,7 @@ public partial class Pedido
     public decimal Total { get; set; }
 
     [InverseProperty("IdPedidoNavigation")]
-    public virtual ICollection<DetallePedido> DetallePedido { get; set; } = new List<DetallePedido>();
+    public virtual List<DetallePedido> DetallePedido { get; set; } 
 
-    [ForeignKey("IdUsuario")]
-    [InverseProperty("Pedido")]
-    public virtual Usuario? IdUsuarioNavigation { get; set; }
+    public  Usuario? Usuario { get; set; }
 }

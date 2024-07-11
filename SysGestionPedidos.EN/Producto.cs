@@ -12,13 +12,12 @@ public partial class Producto
     public int Id { get; set; }
 
     [StringLength(100)]
-    [Unicode(false)]
     public string? Codigo { get; set; }
 
+    [ForeignKey("IdCategoria")]
     public int? IdCategoria { get; set; }
 
     [StringLength(50)]
-    [Unicode(false)]
     public string? Descripcion { get; set; }
 
     [Column(TypeName = "decimal(10, 2)")]
@@ -32,10 +31,8 @@ public partial class Producto
     [Column(TypeName = "datetime")]
     public DateTime? FechaRegistro { get; set; }
 
-    [InverseProperty("IdProductoNavigation")]
-    public virtual ICollection<DetallePedido> DetallePedido { get; set; } = new List<DetallePedido>();
+    public List<DetallePedido> DetallePedido { get; set; } 
 
-    [ForeignKey("IdCategoria")]
-    [InverseProperty("Producto")]
-    public virtual Categoria? IdCategoriaNavigation { get; set; }
+   
+    public  Categoria? Categoria { get; set; }
 }

@@ -11,12 +11,12 @@ public partial class Categoria
     [Key]
     public int Id { get; set; }
 
-    [StringLength(255)]
+    [Required(ErrorMessage = "Nombre es obligatorio")]
+    [StringLength(255, ErrorMessage ="Maximo 255 caracteres")]
     public string? Nombre { get; set; }
 
     [Column(TypeName = "datetime")]
     public DateTime? FechaDeRegistro { get; set; }
 
-    [InverseProperty("IdCategoriaNavigation")]
-    public virtual ICollection<Producto> Producto { get; set; } = new List<Producto>();
+    public  List<Producto> Producto { get; set; } = new List<Producto>();
 }

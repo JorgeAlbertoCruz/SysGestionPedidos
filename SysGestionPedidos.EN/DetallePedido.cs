@@ -11,8 +11,10 @@ public partial class DetallePedido
     [Key]
     public int Id { get; set; }
 
+    [ForeignKey("IdProducto")]
     public int? IdPedido { get; set; }
 
+    [ForeignKey("IdPedido")]
     public int? IdProducto { get; set; }
 
     public int? Cantidad { get; set; }
@@ -20,11 +22,11 @@ public partial class DetallePedido
     [Column(TypeName = "decimal(10, 2)")]
     public decimal? PrecioUnitario { get; set; }
 
-    [ForeignKey("IdPedido")]
-    [InverseProperty("DetallePedido")]
-    public virtual Pedido? IdPedidoNavigation { get; set; }
+    
+   
+    public  Pedido? Pedido{ get; set; }
 
-    [ForeignKey("IdProducto")]
-    [InverseProperty("DetallePedido")]
-    public virtual Producto? IdProductoNavigation { get; set; }
+   
+   
+    public  Producto? Producto { get; set; }
 }
