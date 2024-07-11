@@ -5,7 +5,7 @@ a poder agilizar el proceso de compra y venta, llevar un orden en los pedidos de
 
 Configuración:
 Configuración: El Sistema está creado y configurado en el lenguaje C#, en conjunto con el motor de base de datos
-SQL Server Express, además utilizado arquitectura N-Capas para administrar el Back-End, y para la UI del Front-End se en la estructura MVC.
+SQL Server Express, además utilizado arquitectura N-Capas para administrar el Back-End, y para la UI se utiliza el modelo MVC.
 
 Uso:
-Su uso u utilidad es basicamente la de un CRUD, para las distintas tablas y funciones de la base de datos.
+Su uso u utilidad es basicamente la de un CRUD, para las distintas tablas y funciones de la base de datos, asi también la funcionalidad de poder iniciar sesión cono administrador y como usuario cliente.
