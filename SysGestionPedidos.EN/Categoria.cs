@@ -9,6 +9,7 @@ namespace SysGestionPedidos.EN;
 public partial class Categoria
 {
     [Key]
+    [Required]
     public int Id { get; set; }
 
     [Required(ErrorMessage = "Nombre es obligatorio")]
