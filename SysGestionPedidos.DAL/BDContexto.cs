@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using SysGestionPedidos.EN;
+﻿using SysGestionPedidos.EN;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +7,8 @@ using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Net.Sockets;
 using Microsoft.EntityFrameworkCore;
+
+
 namespace SysGestionPedidos.DAL
 {
     public class BDContexto : DbContext
