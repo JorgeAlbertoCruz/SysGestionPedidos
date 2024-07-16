@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SysGestionPedidos.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01b6b136c5a4b7b97f5340b9798a1855a121e8af")]
 [assembly: System.Reflection.AssemblyProductAttribute("SysGestionPedidos.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SysGestionPedidos.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
