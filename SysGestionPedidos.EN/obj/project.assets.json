@@ -2966,21 +2966,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MINEDUCYT\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\MINEDUCYT\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MINEDUCYT\\source\\repos\\SysGestionPedidos\\SysGestionPedidos.EN\\SysGestionPedidos.EN.csproj",
+      "projectUniqueName": "C:\\Users\\MINEDUCYT\\Source\\Repos\\SysGestionPedidos\\SysGestionPedidos.EN\\SysGestionPedidos.EN.csproj",
       "projectName": "SysGestionPedidos.EN",
-      "projectPath": "C:\\Users\\MINEDUCYT\\source\\repos\\SysGestionPedidos\\SysGestionPedidos.EN\\SysGestionPedidos.EN.csproj",
+      "projectPath": "C:\\Users\\MINEDUCYT\\Source\\Repos\\SysGestionPedidos\\SysGestionPedidos.EN\\SysGestionPedidos.EN.csproj",
       "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MINEDUCYT\\source\\repos\\SysGestionPedidos\\SysGestionPedidos.EN\\obj\\",
+      "outputPath": "C:\\Users\\MINEDUCYT\\Source\\Repos\\SysGestionPedidos\\SysGestionPedidos.EN\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -3039,7 +3035,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

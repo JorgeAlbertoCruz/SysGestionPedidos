@@ -42,9 +42,6 @@ public partial class BbContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__DetalleP__3214EC079261CC35");
 
-            entity.HasOne(d => d.IdPedidoNavigation).WithMany(p => p.DetallePedido).HasConstraintName("FK_DetallePedido_Pedido");
-
-            entity.HasOne(d => d.IdProductoNavigation).WithMany(p => p.DetallePedido).HasConstraintName("FK_DetallePedido_Producto");
         });
 
         modelBuilder.Entity<Pedido>(entity =>
@@ -57,7 +54,7 @@ public partial class BbContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__Producto__3214EC07B5CB16AA");
 
-            entity.HasOne(d => d.IdCategoriaNavigation).WithMany(p => p.Producto).HasConstraintName("FK_Producto_Categoria");
+           
         });
 
         modelBuilder.Entity<Rol>(entity =>
