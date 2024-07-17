@@ -13,3 +13,6 @@ C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debu
 C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\refint\SysGestionPedidos.DAL.dll
 C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\SysGestionPedidos.DAL.pdb
 C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\ref\SysGestionPedidos.DAL.dll
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\bin\Debug\net7.0\SysGestionPedidos.DAL.runtimeconfig.json
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\SysGestionPedidos.DAL.sourcelink.json
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.DAL\obj\Debug\net7.0\SysGestionPedidos.DAL.genruntimeconfig.cache

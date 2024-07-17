@@ -561,6 +561,8 @@
       },
       "SysGestionPedidos.DAL/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.20",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.20",
           "SysGestionPedidos.EN": "1.0.0"
         },
         "runtime": {

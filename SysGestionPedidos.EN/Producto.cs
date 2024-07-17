@@ -28,11 +28,14 @@ public partial class Producto
 
     public int? Stock { get; set; }
 
-    [Column(TypeName = "datetime")]
-    public DateTime? FechaRegistro { get; set; }
+    [Display(Name = "Fecha registro")]
+    public DateTime FechaRegistro { get; set; }
+    [NotMapped]
+    public int Top_Aux { get; set; }
 
     public List<DetallePedido> DetallePedido { get; set; } 
 
    
     public  Categoria? Categoria { get; set; }
+    
 }

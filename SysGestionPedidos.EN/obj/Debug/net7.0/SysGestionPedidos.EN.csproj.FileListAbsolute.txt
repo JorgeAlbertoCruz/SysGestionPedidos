@@ -12,3 +12,4 @@ C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Debug
 C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Debug\net7.0\SysGestionPedidos.EN.pdb
 C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Debug\net7.0\SysGestionPedidos.EN.genruntimeconfig.cache
 C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Debug\net7.0\ref\SysGestionPedidos.EN.dll
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Debug\net7.0\SysGestionPedidos.EN.sourcelink.json

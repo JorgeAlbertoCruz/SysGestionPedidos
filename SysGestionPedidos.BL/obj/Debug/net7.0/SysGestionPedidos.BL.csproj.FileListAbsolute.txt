@@ -15,3 +15,4 @@ C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.BL\obj\Debug
 C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.BL\obj\Debug\net7.0\refint\SysGestionPedidos.BL.dll
 C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.BL\obj\Debug\net7.0\SysGestionPedidos.BL.pdb
 C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.BL\obj\Debug\net7.0\ref\SysGestionPedidos.BL.dll
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.BL\obj\Debug\net7.0\SysGestionPedidos.BL.sourcelink.json

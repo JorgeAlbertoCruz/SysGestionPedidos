@@ -18,13 +18,17 @@ public partial class Pedido
     public string? Estado { get; set; }
 
     [Column(TypeName = "datetime")]
-    public DateTime? Fechapedidod { get; set; }
+    public DateTime FechaPedido { get; set; }
 
     [Column(TypeName = "decimal(10, 2)")]
     public decimal Total { get; set; }
 
-    [InverseProperty("IdPedidoNavigation")]
-    public virtual List<DetallePedido> DetallePedido { get; set; } 
+    [NotMapped]
+    public int Top_Aux { get; set; }
 
-    public  Usuario? Usuario { get; set; }
+
+    public List<DetallePedido> DetallePedido { get; set; }
+
+    public Usuario? Usuario { get; set; }
+
 }

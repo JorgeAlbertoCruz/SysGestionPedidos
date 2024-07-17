@@ -13,11 +13,15 @@ public partial class Categoria
     public int Id { get; set; }
 
     [Required(ErrorMessage = "Nombre es obligatorio")]
-    [StringLength(255, ErrorMessage ="Maximo 255 caracteres")]
+    [StringLength(255, ErrorMessage = "Maximo 255 caracteres")]
     public string? Nombre { get; set; }
 
     [Column(TypeName = "datetime")]
-    public DateTime? FechaDeRegistro { get; set; }
+    public DateTime FechaRegistro { get; set; }
 
-    public  List<Producto> Producto { get; set; } = new List<Producto>();
+    [NotMapped]
+    public int Top_Aux { get; set; }
+
+    public List<Producto> Producto { get; set; }
+
 }
