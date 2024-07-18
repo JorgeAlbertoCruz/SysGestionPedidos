@@ -3,16 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysGestionPedidos.EN", "SysGestionPedidos.EN\SysGestionPedidos.EN.csproj", "{64F5BF4E-F947-4F90-89F7-9BAC311619B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysGestionPedidos.EN", "SysGestionPedidos.EN\SysGestionPedidos.EN.csproj", "{64F5BF4E-F947-4F90-89F7-9BAC311619B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysGestionPedidos.DAL", "SysGestionPedidos.DAL\SysGestionPedidos.DAL.csproj", "{DE28767D-44ED-499E-95D8-3100F320596E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysGestionPedidos.DAL", "SysGestionPedidos.DAL\SysGestionPedidos.DAL.csproj", "{DE28767D-44ED-499E-95D8-3100F320596E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysGestionPedidos.BL", "SysGestionPedidos.BL\SysGestionPedidos.BL.csproj", "{2DC26D85-BD92-4C65-BA80-C1F8833100B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SysGestionPedidos.BL", "SysGestionPedidos.BL\SysGestionPedidos.BL.csproj", "{2DC26D85-BD92-4C65-BA80-C1F8833100B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{D1DEB610-40DA-4F5D-A42C-10DB1E14B6BE}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysGestionPedidos.WebAPI", "SysGestionPedidos.WebAPI\SysGestionPedidos.WebAPI.csproj", "{0221D8CE-F1A5-4B53-B5C8-B769A4E64451}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{2DC26D85-BD92-4C65-BA80-C1F8833100B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DC26D85-BD92-4C65-BA80-C1F8833100B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DC26D85-BD92-4C65-BA80-C1F8833100B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0221D8CE-F1A5-4B53-B5C8-B769A4E64451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0221D8CE-F1A5-4B53-B5C8-B769A4E64451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0221D8CE-F1A5-4B53-B5C8-B769A4E64451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0221D8CE-F1A5-4B53-B5C8-B769A4E64451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
