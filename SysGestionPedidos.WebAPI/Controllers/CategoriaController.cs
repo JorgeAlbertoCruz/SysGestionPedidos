@@ -38,6 +38,12 @@ namespace SysGestionPedidos.WebAPI.Controllers
             }
 
         }
+
+        [HttpDelete (Name ="DeleteCategoria")]
+        public int Delete(int id) 
+        {
+            if (id>)
+        }
     }
 }
 
