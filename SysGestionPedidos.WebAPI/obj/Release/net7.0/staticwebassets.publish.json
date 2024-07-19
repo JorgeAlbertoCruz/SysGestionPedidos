@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dPPDTnuUMRWOqD3TQcAzQyUwiUW+PriXXYl6aZfanqg=",
+  "Source": "SysGestionPedidos.WebAPI",
+  "BasePath": "_content/SysGestionPedidos.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

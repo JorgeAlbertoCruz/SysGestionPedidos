@@ -38,8 +38,8 @@ namespace SysGestionPedidos.DAL
             int result = 0;
             using (var bdContexto = new BDContexto())
             {
-                var categoria = await bdContexto.Producto.FirstOrDefaultAsync(s => s.Id == pCategoria.Id);
-                bdContexto.Producto.Remove(categoria);
+                var categoria = await bdContexto.Categoria.FirstOrDefaultAsync(s => s.Id == pCategoria.Id);
+                bdContexto.Categoria.Remove(categoria);
                 result = await bdContexto.SaveChangesAsync();
             }
             return result;

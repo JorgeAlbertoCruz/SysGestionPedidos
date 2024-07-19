@@ -32,17 +32,38 @@ namespace SysGestionPedidos.WebAPI.Controllers
                 int resultado = await CategoriaDAL.CrearAsync(pCategoria);
                 return resultado;
             }
-            else 
+            else
+            {
+                return 0;
+            }
+
+        }
+        [HttpPut(Name = "PutCategorias")]
+        public async Task<int> Put(int id, [FromBody] Categoria pCategoria)
+        {
+
+            if (pCategoria.Id >= 0)
+            {
+                int resultado = await CategoriaDAL.ModificarAsync(pCategoria);
+                return resultado;
+            }
+            else
             {
                 return 0;
             }
 
         }
 
-        [HttpDelete (Name ="DeleteCategoria")]
-        public int Delete(int id) 
+        [HttpDelete(Name = "DeleteCategorias")]
+        public async Task<int> Delete(int id, Categoria pCategoria)
         {
-            if (id>)
+            if (id >= 1)
+            {
+
+                await CategoriaDAL.EliminarAsync(pCategoria);
+                return 1;
+            }
+            return 0;
         }
     }
 }

@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SysGestionPedidos.BL;
 using SysGestionPedidos.DAL;
 using SysGestionPedidos.EN;
+using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SysGestionPedidos.WebAPI.Controllers
 {
@@ -36,6 +39,34 @@ namespace SysGestionPedidos.WebAPI.Controllers
                 return 0;
             }
 
+        }
+
+        [HttpPut(Name = "PutRoles")]
+        public async Task<int> Put(int id, [FromBody] Rol pRol)
+        {
+
+            if (pRol.Id >= 0)
+            {
+                int resultado = await RolDAL.ModificarAsync(pRol);
+                return resultado;
+            }
+            else
+            {
+                return 0;
+            }
+
+        }
+
+        [HttpDelete(Name = "DeleteRoles")]
+        public async Task<int> Delete(int id, Rol pRol)
+        {
+            if (id >= 1)
+            {
+               
+                int resultado = await RolDAL.EliminarAsync(pRol);
+                return 1;
+            }         
+                return 0;
         }
     }
 }

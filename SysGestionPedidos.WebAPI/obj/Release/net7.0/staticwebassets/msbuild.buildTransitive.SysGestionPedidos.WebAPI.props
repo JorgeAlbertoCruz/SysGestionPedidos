@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SysGestionPedidos.WebAPI.props" />
+</Project>

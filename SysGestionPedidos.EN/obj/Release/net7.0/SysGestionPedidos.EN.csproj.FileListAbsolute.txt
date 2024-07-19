@@ -1,0 +1,15 @@
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\bin\Release\net7.0\SysGestionPedidos.EN.deps.json
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\bin\Release\net7.0\SysGestionPedidos.EN.runtimeconfig.json
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\bin\Release\net7.0\SysGestionPedidos.EN.dll
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\bin\Release\net7.0\SysGestionPedidos.EN.pdb
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Release\net7.0\SysGestionPedidos.EN.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Release\net7.0\SysGestionPedidos.EN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Release\net7.0\SysGestionPedidos.EN.AssemblyInfoInputs.cache
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Release\net7.0\SysGestionPedidos.EN.AssemblyInfo.cs
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Release\net7.0\SysGestionPedidos.EN.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Release\net7.0\SysGestionPedidos.EN.sourcelink.json
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Release\net7.0\SysGestionPedidos.EN.dll
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Release\net7.0\refint\SysGestionPedidos.EN.dll
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Release\net7.0\SysGestionPedidos.EN.pdb
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Release\net7.0\SysGestionPedidos.EN.genruntimeconfig.cache
+C:\Users\MINEDUCYT\source\repos\SysGestionPedidos\SysGestionPedidos.EN\obj\Release\net7.0\ref\SysGestionPedidos.EN.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SysGestionPedidos.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21fb90e077b3b29285d4faa77e23cfbfdff43b0f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3275d823e67c309de447b63911746fd4bf441777")]
 [assembly: System.Reflection.AssemblyProductAttribute("SysGestionPedidos.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SysGestionPedidos.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
