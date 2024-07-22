@@ -57,13 +57,17 @@ namespace SysGestionPedidos.WebAPI.Controllers
         [HttpDelete(Name = "DeleteCategorias")]
         public async Task<int> Delete(int id, Categoria pCategoria)
         {
-            if (id >= 1)
+            if (pCategoria.Id >= 0)
             {
 
-                await CategoriaDAL.EliminarAsync(pCategoria);
-                return 1;
+                int resultado = await CategoriaDAL.EliminarAsync(pCategoria);
+                return resultado;
             }
-            return 0;
+            else
+            {
+                return 0;
+            }
+
         }
     }
 }

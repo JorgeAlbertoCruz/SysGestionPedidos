@@ -60,13 +60,16 @@ namespace SysGestionPedidos.WebAPI.Controllers
         [HttpDelete(Name = "DeleteRoles")]
         public async Task<int> Delete(int id, Rol pRol)
         {
-            if (id >= 1)
+            if (pRol.Id >= 0)
             {
                
                 int resultado = await RolDAL.EliminarAsync(pRol);
-                return 1;
-            }         
+                return resultado;
+            }else
+            {
                 return 0;
+            }
+               
         }
     }
 }
